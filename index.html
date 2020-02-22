@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--Welcome to the Crystal Collector Game!-->
+
+    <title>Crystal Collector Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Personal Style CSS-->
+    <link rel="stylesheet" href="../unit-four-game/assets/css/style.css">
+    
+    <!--Link for Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+   <header class="titleBox">
+        
+     <h1>The Crystal Collector Game</h1>
+        
+    </header>
+            <section class= "instruction-box">
+
+                <p id ="randomNum"> You will be given a random number at the start of the game.</p>
+                
+                <p id = "fourCrystals"> There are four crystals below. By clicking on a crystal, you will add a specfic amount of points to your total score.</p>
+               
+                <p id = "wins"> You win the game by matching your total score to random number generated. </p>
+                
+                <p id = "losses"> You lose the game if your total score goes above the random number. </p>
+               
+                <p id ="hiddenValue"> The value of each crystal is hidden from you until you click on it</p>
+           
+                <p id = "gameStart"> Each time when the game starts, the game will change the values of each crystal.</p>
+            
+            </section>
+
+       
+<div class="random-number" id="randNum"></div>
+  
+
+<div class="gameButtons" id=crysButtons>
+    <button id="crys1" class="crystal amethyst"><img src="../unit-four-game/assets/images/amethyst.jpg" height="150px" width="150px"></button> 
+
+    <button id="crys2" class="crytsal apophyllite"><img src="../unit-four-game/assets/images/apophyllite.jpg" height="150px" width="150px"></button>  
+   
+    <button id="crys3" class="crystal aquamarine"><img src="../unit-four-game/assets/images/aquamarine.jpg" height="150px" width="150px"></button>  
+    
+    <button id="crys4" class="crystal sapphire"><img src="../unit-four-game/assets/images/sapphire.jpg" height="150px" width="150px"></button> 
+    
+</div>
+
+<div class="total-score">
+    <div>Your total score is:</div>
+    <br>
+    <div id="totScore">0</div>
+</div>
+
+<div class= "winLoseBox">
+    <p>Wins:</p>
+    <p id="wins">0</p>
+    <p>Losses:</p>
+    <p id="losses">0</p>
+</div>
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script> 
+
+</body>
+</html>

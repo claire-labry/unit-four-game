@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    background-image: url("../images/selective-focus-photography-of-tree-leaves-754082.jpg");
+    background-size: cover;
+    height: 50%;
+    margin-bottom: 0;
+    z-index: 1;
+    }
+
+    .titleBox{
+        color: whitesmoke;
+        background: pink;
+        font-size: 30px;
+        font-family: 'Lacquer', sans-serif;
+        text-align: center;
+    }
+    
+    .instruction-box{
+        color: whitesmoke;
+        background:skyblue;
+        font-size: 30px;
+        font-family: 'Lacquer', sans-serif;
+    }
+    .total-score{
+        color: whitesmoke;
+        background:skyblue;
+        font-size: 30px;
+        font-family: 'Lacquer', sans-serif;
+    }
+
+    .winLoseBox{
+        color: whitesmoke;
+        background: pink;
+        font-size: 30px;
+        font-family: 'Lacquer', sans-serif;
+    }
