@@ -13,6 +13,10 @@ body{
         font-size: 30px;
         font-family: 'Lacquer', sans-serif;
         text-align: center;
+        z-index: 99;
+        margin: 10px 0 10px 0;
+        overflow: auto;
+        border: 15px solid wheat;
     }
     
     .instruction-box{
@@ -20,12 +24,58 @@ body{
         background:skyblue;
         font-size: 30px;
         font-family: 'Lacquer', sans-serif;
+        text-align: center;
+        float: center;
+        z-index: 99;
+        margin:10px 0 10px 0;
+        overflow: auto;
+        border: 15px solid wheat;
     }
+
+    .random-number{
+        color: whitesmoke;
+        background:pink;
+        font-size: 30px;
+        font-family: 'Lacquer', sans-serif;
+        float: center;
+        width: 5%;
+        padding: 30px;
+        margin: 10px 0 10px 0;
+        border: 15px solid wheat;
+    }
+
+    
+    #crys1{
+        border:15px solid plum;
+       
+    }
+
+    #crys2{
+        border:15px solid turquoise;
+       
+    }
+    
+
+    #crys3{
+        border:15px solid aquamarine;
+
+    }
+    
+
+    #crys4{
+        border:15px solid steelblue;
+    }
+   
     .total-score{
         color: whitesmoke;
         background:skyblue;
         font-size: 30px;
         font-family: 'Lacquer', sans-serif;
+        float: center;
+        width: 19%;
+        padding: 30px;
+        margin: 10px 0 10px 0;
+        border: 15px solid wheat;
     }
 
     .winLoseBox{
@@ -33,4 +83,9 @@ body{
         background: pink;
         font-size: 30px;
         font-family: 'Lacquer', sans-serif;
+        float: center;
+        width: 20%;
+        padding: 30px;
+        margin: 10px 0 10px 0;
+        border: 15px solid wheat;
     }
